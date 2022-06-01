@@ -22,17 +22,17 @@ import javax.validation.constraints.*;
 
 public class PaymentProcess   {
   @JsonProperty("buyer")
-  private Buyer buyer = null;
+  private Buyer buyer ;
 
   @JsonProperty("checkoutId")
-  private String checkoutId = null;
+  private String checkoutId ;
 
   @JsonProperty("creditCardInfo")
-  private CreditCard creditCardInfo = null;
+  private CreditCard creditCardInfo ;
 
   @JsonProperty("paymentOrder")
   @Valid
-  private List<Order> paymentOrder = null;
+  private List<Order> paymentOrder ;
 
   public PaymentProcess buyer(Buyer buyer) {
     this.buyer = buyer;

@@ -6,9 +6,9 @@ import java.util.List;
 
 public interface PaymentRepository {
 
-    public void createPayment(Payment payment);
-    public List<Payment> getPayments();
-    public Payment getPaymentById(String paymentId);
+     Payment createPayment(Payment payment);
+     List<Payment> getPayments();
+     Payment getPaymentById(String paymentId);
 
 
     }

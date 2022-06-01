@@ -21,23 +21,23 @@ import javax.validation.constraints.*;
 
 public class Payment   {
   @JsonProperty("id")
-  private String id = null;
+  private String id ;
 
   @JsonProperty("buyer")
-  private Buyer buyer = null;
+  private Buyer buyer ;
 
   @JsonProperty("amount")
-  private String amount = null;
+  private String amount ;
 
   @JsonProperty("seller_account")
-  private String sellerAccount = null;
+  private String sellerAccount ;
 
   @JsonProperty("currency")
-  private String currency = null;
+  private String currency ;
 
   @JsonProperty("orders")
   @Valid
-  private List<Order> orders = null;
+  private List<Order> orders ;
 
   public Payment id(String id) {
     this.id = id;

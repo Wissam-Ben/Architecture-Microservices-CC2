@@ -17,19 +17,19 @@ import javax.validation.constraints.*;
 
 public class CreditCard   {
   @JsonProperty("id")
-  private String id = null;
+  private String id ;
 
   @JsonProperty("owner")
-  private String owner = null;
+  private String owner ;
 
   @JsonProperty("creditCardNumber")
-  private String creditCardNumber = null;
+  private String creditCardNumber ;
 
   @JsonProperty("expiryDate")
-  private String expiryDate = null;
+  private String expiryDate ;
 
   @JsonProperty("cvv")
-  private Integer cvv = null;
+  private Integer cvv ;
 
   public CreditCard id(String id) {
     this.id = id;

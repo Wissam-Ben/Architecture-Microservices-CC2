@@ -17,13 +17,13 @@ import javax.validation.constraints.*;
 
 public class Order   {
   @JsonProperty("id")
-  private String id = null;
+  private String id ;
 
   @JsonProperty("product")
-  private String product = null;
+  private String product ;
 
   @JsonProperty("price")
-  private String price = null;
+  private String price ;
 
   public Order id(String id) {
     this.id = id;

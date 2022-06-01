@@ -25,6 +25,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 import javax.validation.Valid;
+import java.util.List;
 
 @javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.SpringCodegen", date = "2022-05-31T12:37:02.602Z[GMT]")
 @Validated
@@ -42,7 +43,7 @@ public interface PaymentsApi {
     @RequestMapping(value = "/payments",
             produces = { "application/json" },
             method = RequestMethod.GET)
-    ResponseEntity<Payments> getPayments();
+    List<Payment> getPayments();
 
 
     @Operation(summary = "", description = "Fetch payments", tags={ "payments" })
@@ -69,7 +70,7 @@ public interface PaymentsApi {
             produces = { "application/json" },
             consumes = { "application/json" },
             method = RequestMethod.POST)
-    ResponseEntity<Payment> processPayment(@Parameter(in = ParameterIn.DEFAULT, description = "Request to initiate a payment process", required=true, schema=@Schema()) @Valid @RequestBody PaymentProcess body);
+    ResponseEntity<Payment> processPayment(@RequestBody Payment payment);
 
 }
 

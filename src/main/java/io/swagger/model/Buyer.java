@@ -17,16 +17,16 @@ import javax.validation.constraints.*;
 
 public class Buyer   {
   @JsonProperty("id")
-  private String id = null;
+  private String id ;
 
   @JsonProperty("firstName")
-  private String firstName = null;
+  private String firstName ;
 
   @JsonProperty("lastName")
-  private String lastName = null;
+  private String lastName ;
 
   @JsonProperty("email")
-  private String email = null;
+  private String email ;
 
   public Buyer id(String id) {
     this.id = id;
