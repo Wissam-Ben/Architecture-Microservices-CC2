@@ -18,4 +18,4 @@ http://localhost:8080/
 Change default port value in application.properties
 
 
-<a href="./payment-diagram.pdf"/>
+<img src="./payment-diagram-1.png" alt=""/>
