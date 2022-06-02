@@ -18,4 +18,4 @@ http://localhost:8080/
 Change default port value in application.properties
 
 
-<img src="https://www.dropbox.com/s/e6gveagw5su4atj/payment-diagram.pdf?dl=0" alt=", c: -0.4 + 0.6i" width="500" />
+<img src="./payment-diagram.pdf" alt="" width="500" />
