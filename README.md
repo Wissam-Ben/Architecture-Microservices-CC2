@@ -16,3 +16,6 @@ You can view the api documentation in swagger-ui by pointing to
 http://localhost:8080/  
 
 Change default port value in application.properties
+
+
+[!alt text](https://www.dropbox.com/s/e6gveagw5su4atj/payment-diagram.pdf?dl=0)
