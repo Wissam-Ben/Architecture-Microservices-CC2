@@ -17,5 +17,11 @@ http://localhost:8080/
 
 Change default port value in application.properties
 
-
+Diagramme 1:
 <img src="./payment-diagram-1.png" alt=""/>
+
+
+Diagrame 2 :
+<img src="./payment-sequence-vf-1.png" alt=""/>
+
+* La onfiguration Redis est dans le fichier application.properties
