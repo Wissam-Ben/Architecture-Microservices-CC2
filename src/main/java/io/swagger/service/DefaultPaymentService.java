@@ -18,8 +18,9 @@ public class DefaultPaymentService implements PaymentService{
         this.paymentRepository = paymentRepository;
     }
 
+
     @Override
-    @CachePut(value="Payment", key="#payment.id()")
+    @CachePut(value="Payment", key="")
     public Payment createPayment(Payment payment) {
         this.paymentRepository.createPayment(payment);
         return payment;
