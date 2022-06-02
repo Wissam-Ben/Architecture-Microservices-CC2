@@ -18,4 +18,4 @@ http://localhost:8080/
 Change default port value in application.properties
 
 
-![Drag Racing](https://www.dropbox.com/s/e6gveagw5su4atj/payment-diagram.pdf?dl=0)
+![system schema](https://www.dropbox.com/s/e6gveagw5su4atj/payment-diagram.pdf?dl=0)
